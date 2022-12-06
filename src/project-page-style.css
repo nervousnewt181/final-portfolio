@@ -1,0 +1,95 @@
+:root {
+    --aboutContainerBackground: #fafde6;
+    --mainBackground: #EBf5DF;
+    --helloText: #2b261e;
+    --aboutText: #2b261e;
+    --navbarLight: #fca542;
+    --navbarDark: #f38a28;
+    --navbarHover: #d8702b;
+    --navbarShadow: #d8702b;
+    --borderBackground: #6b7e60;
+    --borderShadow: #3d4b34;
+    --sectionTitle: #4b3f2a;
+    --sectionBackground: #fac73b;
+    --sectionShadow: #cf9728;
+    --entryBody: #FFF7D9;
+    --entryTitle: #da9c21;
+    --entryText: #2b261e;
+    --footerLight: #2b261e;
+    --body: #fbffd9;
+}
+
+.pp--main {
+    margin: 0;
+    padding: 5rem 9rem;
+    background-color: white;
+    scroll-behavior: auto;
+}
+
+.pp--header-photo-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pp--header-photo {
+    height: 40vh;
+    width: auto;
+    margin: 1rem;
+}
+
+.pp--header {
+    margin-top: -1.5vh;
+    /* background-color: black; */
+    padding: 3rem 0 0;
+}
+
+.pp--header h1 {
+    font-size: 48px;
+    margin-bottom: -1rem;
+    font-family: "PT Sans";
+    color: var(--borderShadow);
+}
+
+.pp--header h4 {
+    font-weight: 400;
+}
+
+.pp--section-header {
+    background-color: var(--borderBackground);
+    color: white;
+    display: inline-block;
+    padding: 0 1rem;
+    border-radius: 3px;
+    margin-top: 2rem;
+    box-shadow: 6px 6px 0px var(--borderShadow);
+}
+
+.pp--section-header:hover {
+    margin-left: -0.4rem;
+    box-shadow: 16px 6px 0px var(--borderShadow);
+}
+
+.pp--section-body {
+    padding: 1rem 2rem 0;
+}
+
+.pp--section-body img {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+li {
+    font-family: "PT Sans Caption";
+    font-size: 16px;
+}
+
+.bottom-button {
+    background-color: var(--navbarLight);
+    color: white;
+    text-decoration: none;
+}
